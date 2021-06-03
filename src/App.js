@@ -54,7 +54,7 @@ function App() {
   useEffect(() => {
     const consultarApi = async () => {
       if (consulta) {
-        const appId = "cb379ed5b4a1990ec28c9ad0347a6b28";
+        const appId = "b5c63fd707aee11eb8b825c72d1607e6";
         const url = `https://api.openweathermap.org/data/2.5/weather?q=${ciudad}&appid=${appId}`;
 
         //console.log(url);
